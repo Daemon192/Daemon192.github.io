@@ -24,7 +24,7 @@ Once you have the project set up, you can open the website in your web browser b
 
    The website should open in your default web browser, and you can start exploring its features.
    
-Please note that the live version hosted at daemon192.github.io will always reflect the latest version of the project, so it's recommended to visit that link for the most up-to-date experience.
+Please note that the live version hosted at [daemon192.github.io](https://daemon192.github.io) will always reflect the latest version of the project, so it's recommended to visit that link for the most up-to-date experience.
 
 Feel free to reach out if you have any questions or need further assistance. Enjoy exploring the project!
 
