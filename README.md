@@ -33,17 +33,12 @@ Feel free to reach out if you have any questions or need further assistance. Enj
 The project structure is organized as follows:
 
 ```
-├── css/
-│   └── styles.css
-├── js/
-│   └── script.js
+├── styles.css
 ├── index.html
 └── README.md
 ```
 
 - The `css/` directory contains the `styles.css` file, which contains the CSS rules for styling the website.
-
-- The `js/` directory contains the `script.js` file, which contains the JavaScript code for implementing interactivity on the website.
 
 - The `index.html` file is the main HTML file that represents the structure and content of the website.
 
