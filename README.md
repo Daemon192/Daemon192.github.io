@@ -56,7 +56,7 @@ I would like to express my gratitude to the open-source community for providing 
 
 ## Contact
 
-If you have any questions, suggestions, or just want to say hi, you can reach me at [your-email@example.com](mailto:your-email@example.com).
+If you have any questions, suggestions, or just want to say hi, you can reach me at [gerlianidemetre@gmail.com](mailto:gerlianidemetre@gmail.com).
 
 ---
 
