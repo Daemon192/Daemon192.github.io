@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+/* CSS RESET */
+
+* {
+    text-decoration: none;
+}
+
+/* Smooth scroll effect */
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Background Color*/
+
+body {
+    display: flex;
+    background-color: #111215;
+}
+
+/* Main content*/
+
+.main,
+.list {
+    margin-left: 14em;
+}
+
+.logo {
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 900;
+    font-size: 38px;
+    color: #FFF;
+    margin-top: 2em;
+    margin-bottom: 0.2em;
+}
+
+.profession {
+    font-family: 'Space Mono';
+    font-weight: 400;
+    color: #afafaf;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.about {
+    font-family: 'Space Mono';
+    font-weight: 400;
+    color: #afafaf;
+    margin-bottom: 2em;
+    letter-spacing: 0.05em;
+    line-height: 22px;
+}
+
+.location {
+    display: flex;
+}
+
+svg {
+    height: 16px;
+    width: 16px;
+    fill: #afafaf;
+}
+
+.country {
+    font-family: 'Space Mono';
+    font-size: 16px;
+    color: #afafaf;
+    text-align: center;
+    line-height: 16px;
+    margin-left: 0.4em;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    height: 74px;
+    justify-content: space-around;
+    font-family: 'Space Mono';
+    margin-top: 5em;
+    margin-bottom: 9em;
+}
+
+a {
+    color: #afafaf;
+    line-height: 16px;
+}
+
+.first,
+.sec {
+    display: flex;
+    text-align: center;
+}
+
+.project,
+.contact {
+    margin-left: 0.4em;
+    transition: 0.4s;
+}
+
+.project:hover,
+.contact:hover {
+    color: #FFF;
+    font-size: 18px;
+}
+
+.tasks {
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 900;
+    font-size: 22px;
+    color: #FFF;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.container {
+    display: flex;
+    width: 630px;
+    height: 100%;
+    border-radius: 8px;
+    padding: 24px;
+    transition: 0.4s;
+    margin-bottom: 16px;
+}
+
+.container:hover {
+    background-color: #2b2b2e50;
+}
+
+.title {
+    font-family: 'Inter';
+    font-weight: 900;
+    font-size: 18px;
+    color: #FFF;
+    margin-bottom: 26px;
+}
+
+.task-desc {
+    font-family: 'Space Mono';
+    letter-spacing: 0.05em;
+    line-height: 22px;
+    color: #afafaf;
+}
+
+.link {
+    margin-top: 16px;
+    font-family: 'Space Mono';
+    color: #059DC0;
+    font-size: 0.9em;
+}
+
+/* Waving Hand*/
+
+.wave {
+    font-style: normal;
+    animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.5s;        /* Change to speed up or slow down */
+    animation-iteration-count: infinite;  /* Never stop waving :) */
+    transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+    display: inline-block;
+  }
+  
+  @keyframes wave-animation {
+      0% { transform: rotate( 0.0deg) }
+     10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+     20% { transform: rotate(-8.0deg) }
+     30% { transform: rotate(14.0deg) }
+     40% { transform: rotate(-4.0deg) }
+     50% { transform: rotate(10.0deg) }
+     60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+    100% { transform: rotate( 0.0deg) }
+  }
+  
+  
+  
