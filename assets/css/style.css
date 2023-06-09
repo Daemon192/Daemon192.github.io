@@ -21,7 +21,7 @@ body {
 }
 
 /* Main content*/
-
+@media only screen and (max-device-width: 480px){
 .main,
 .list {
     margin-left: 14em;
@@ -174,5 +174,5 @@ a {
     100% { transform: rotate( 0.0deg) }
   }
   
-  
+}
   
